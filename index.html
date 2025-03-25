@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Advanced Scientific Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div class="previous-operand"></div>
+            <div class="current-operand">0</div>
+        </div>
+        <div class="buttons">
+            <button class="function history-btn">History</button>
+            <button class="clear">AC</button>
+            <button class="delete">DEL</button>
+            <button class="function">%</button>
+            <button class="operator">÷</button>
+            <button class="function">sin</button>
+            <button class="function">cos</button>
+            <button class="function">tan</button>
+            <button class="function">√</button>
+            <button class="operator">×</button>
+            <button class="function">ln</button>
+            <button class="function">x²</button>
+            <button class="function">x³</button>
+            <button class="function">1/x</button>
+            <button class="operator">-</button>
+            <button class="function">π</button>
+            <button class="function">e</button>
+            <button class="function">±</button>
+            <button class="function">log</button>
+            <button class="operator">+</button>
+            <button class="equals span-two">=</button>
+            <button class="function">(</button>
+            <button class="function">)</button>
+            <button class="function">7</button>
+            <button class="function">8</button>
+            <button class="function">9</button>
+            <button class="function">4</button>
+            <button class="function">5</button>
+            <button class="function">6</button>
+            <button class="function">1</button>
+            <button class="function">2</button>
+            <button class="function">3</button>
+            <button class="function span-two">0</button>
+            <button class="function">.</button>
+        </div>
+    </div>
+
+    <!-- History Panel -->
+    <div class="history-panel">
+        <div class="history-header">
+            <h2>Calculation History</h2>
+            <button class="clear-history">Clear All</button>
+        </div>
+        <div class="history-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
